@@ -1,30 +1,21 @@
-# flicks
-<<<<<<< HEAD
-# flicks2
-# flicks2
-=======
-# Project 1 - *Top movies*
+# Project 2 - *Top movies*
 
-**Top movies** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Top movies** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **15** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
-The following **required** functionality is complete:
+The following **required** functionality is completed:
 
-- [ x] User can view a list of movies currently playing in theaters from The Movie Database.
-- [x ] Poster images are loaded using the UIImageView category in the AFNetworking library.
-- [x ] User sees a loading state while waiting for the movies API.
-- [ x] User can pull to refresh the movie list.
+- [ x] User can view movie details by tapping on a cell.
+- [ x] User can select from a tab bar for either **Now Playing** or **Top Rated** movies.
+- [ x] Customize the selection effect of the cell.
 
 The following **optional** features are implemented:
 
-- [ ] User sees an error message when there's a networking error.
-- [ ] Movies are displayed using a CollectionView instead of a TableView.
-- [ ] User can search for a movie.
-- [ ] All images fade in as they are loading.
-- [ ] Customize the UI.
+- [ ] For the large poster, load the low resolution image first and then switch to the high resolution image when complete.
+- [ ] Customize the navigation bar.
 
 The following **additional** features are implemented:
 
@@ -38,8 +29,8 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-<blockquote class="imgur-embed-pub" lang="en" data-id="QVOZ3Iv"><a href="//imgur.com/QVOZ3Iv">Codepath flicks</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-<img src="http://i.imgur.com/QVOZ3Iv.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='http://i.imgur.com/hhhNtID.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -62,5 +53,3 @@ Describe any challenges encountered while building the app.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
->>>>>>> b5a6a6d9e8ac2baf76b28451bb4e08154b5c9dda
-# flicks2
